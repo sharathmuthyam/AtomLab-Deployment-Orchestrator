@@ -37,7 +37,7 @@ def deploy():
 def status():
     if board_state["status"] == "booting":
         timestamp = datetime.datetime.now().strftime("%H:%M:%S")
-        if random.random() > 0.9:
+        if random.random() > 0.1:
             board_state["status"] = "running"
             board_state["logs"].append(f"[{timestamp}] Boot SUCCESS")
         else:

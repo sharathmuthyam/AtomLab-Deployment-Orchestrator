@@ -1,25 +1,248 @@
-{
-    "timestamp": "2026-03-04 17:45:36",
-    "total_boards": 3,
-    "failures": [
-        {
-            "board": "board_1",
-            "deploy_status": "failed",
-            "validation_status": null,
-            "error": "OS busy - cannot accept firmware"
-        },
-        {
-            "board": "board_2",
-            "deploy_status": "success",
-            "validation_status": "failed",
-            "error": null
-        },
-        {
-            "board": "board_3",
-            "deploy_status": "success",
-            "validation_status": "failed",
-            "error": null
-        }
-    ],
-    "summary": "3 board(s) failed out of 3"
-}
+[
+    {
+        "report_id": "59279bea",
+        "timestamp": "2026-03-06 01:05:04",
+        "total_boards": 3,
+        "failures": [],
+        "summary": "0 board(s) failed out of 3"
+    },
+    {
+        "report_id": "9448abcb",
+        "timestamp": "2026-03-06 01:05:13",
+        "total_boards": 3,
+        "failures": [],
+        "summary": "0 board(s) failed out of 3"
+    },
+    {
+        "report_id": "17be5d1b",
+        "timestamp": "2026-03-06 01:06:15",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_2",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "Board rebooted mid-deploy"
+            }
+        ],
+        "summary": "1 board(s) failed out of 3"
+    },
+    {
+        "report_id": "a34aa860",
+        "timestamp": "2026-03-06 01:11:45",
+        "total_boards": 3,
+        "failures": [],
+        "summary": "0 board(s) failed out of 3"
+    },
+    {
+        "report_id": "e6281c52",
+        "timestamp": "2026-03-06 01:11:53",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_1",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "Board rebooted mid-deploy"
+            }
+        ],
+        "summary": "1 board(s) failed out of 3"
+    },
+    {
+        "report_id": "a6bd2bdb",
+        "timestamp": "2026-03-06 01:16:27",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_1",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "OS busy - cannot accept firmware"
+            },
+            {
+                "board": "board_3",
+                "deploy_status": "success",
+                "validation_status": "failed",
+                "error": null
+            }
+        ],
+        "summary": "2 board(s) failed out of 3"
+    },
+    {
+        "report_id": "6c26cfd2",
+        "timestamp": "2026-03-06 01:20:23",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_2",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "OS busy - cannot accept firmware"
+            },
+            {
+                "board": "board_3",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "OS busy - cannot accept firmware"
+            }
+        ],
+        "summary": "2 board(s) failed out of 3"
+    },
+    {
+        "report_id": "8a3d9047",
+        "timestamp": "2026-03-06 01:22:19",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_2",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "OS busy - cannot accept firmware"
+            },
+            {
+                "board": "board_3",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "OS busy - cannot accept firmware"
+            }
+        ],
+        "summary": "2 board(s) failed out of 3"
+    },
+    {
+        "report_id": "d88238d5",
+        "timestamp": "2026-03-06 01:23:54",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_1",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "OS busy - cannot accept firmware"
+            },
+            {
+                "board": "board_2",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "SSH connection timeout"
+            }
+        ],
+        "summary": "2 board(s) failed out of 3"
+    },
+    {
+        "report_id": "e4b97131",
+        "timestamp": "2026-03-06 01:26:01",
+        "total_boards": 3,
+        "failures": [],
+        "summary": "0 board(s) failed out of 3"
+    },
+    {
+        "report_id": "ba628c35",
+        "timestamp": "2026-03-06 01:26:04",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_1",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "Board rebooted mid-deploy"
+            }
+        ],
+        "summary": "1 board(s) failed out of 3"
+    },
+    {
+        "report_id": "f2319869",
+        "timestamp": "2026-03-06 01:26:45",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_1",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "SSH connection timeout"
+            }
+        ],
+        "summary": "1 board(s) failed out of 3"
+    },
+    {
+        "report_id": "a9e2fdc0",
+        "timestamp": "2026-03-06 01:27:28",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_2",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "Board rebooted mid-deploy"
+            }
+        ],
+        "summary": "1 board(s) failed out of 3"
+    },
+    {
+        "report_id": "a7a60b67",
+        "timestamp": "2026-03-06 01:29:13",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_2",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "SSH connection timeout"
+            }
+        ],
+        "summary": "1 board(s) failed out of 3"
+    },
+    {
+        "report_id": "f911715e",
+        "timestamp": "2026-03-06 01:30:33",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_2",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "Board rebooted mid-deploy"
+            },
+            {
+                "board": "board_3",
+                "deploy_status": "success",
+                "validation_status": "failed",
+                "error": null
+            }
+        ],
+        "summary": "2 board(s) failed out of 3"
+    },
+    {
+        "report_id": "63ce198d",
+        "timestamp": "2026-03-06 01:33:18",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_3",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "SSH connection timeout"
+            }
+        ],
+        "summary": "1 board(s) failed out of 3"
+    },
+    {
+        "report_id": "4b90f279",
+        "timestamp": "2026-03-06 01:35:02",
+        "total_boards": 3,
+        "failures": [
+            {
+                "board": "board_2",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "SSH connection timeout"
+            },
+            {
+                "board": "board_3",
+                "deploy_status": "failed",
+                "validation_status": null,
+                "error": "Board rebooted mid-deploy"
+            }
+        ],
+        "summary": "2 board(s) failed out of 3"
+    }
+]
