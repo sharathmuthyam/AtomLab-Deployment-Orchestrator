@@ -4,7 +4,7 @@ from config import BOARDS
 def deploy_to_board(name):
     url = BOARDS[name]["url"]
     print(f"🔄 Deploying to {name}...")
-    
+        
     try:
         response = requests.post(
             f"{url}/deploy",
